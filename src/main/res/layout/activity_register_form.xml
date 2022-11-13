@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D5F3F0"
+    android:layout_height="match_parent"
+    tools:context=".RegisterForm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:text=" Full Name ....."
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="62dp"
+            android:ems="10"
+            android:hint="Your name"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:text=" Email ............ "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="122dp"
+            android:ems="10"
+            android:hint="mail@xyz.com"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="180dp"
+            android:text=" Age  .............. "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="172dp"
+            android:ems="10"
+            android:hint=" Atleast 18"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:text=" Phone .......... "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="225dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Start with +880"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:text=" District .......... "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/district"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="272dp"
+            android:ems="10"
+            android:hint="like Khulna"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/teal_700"
+            android:text="Department information"
+            android:textAlignment="center"
+
+            android:textSize="28dp">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/teew67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:text=" Department .. "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/dept"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="395dp"
+            android:ems="10"
+            android:hint="like CSE"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/teettuuw67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="440dp"
+            android:text=" ID No ............. "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="435dp"
+            android:ems="10"
+            android:hint="183852"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <TextView
+            android:id="@+id/teettujhgkuw67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="490dp"
+            android:text=" Session ......... "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/session"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="480dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="like 2018 - 2019"
+            android:inputType="textPersonName"
+            android:textColorHint="#BCAAA4" />
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="550dp"
+            android:backgroundTint="#009688"
+            android:text="Submit">
+
+        </Button>
+
+        <Button
+            android:id="@+id/canclebtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="550dp"
+            android:backgroundTint="#009688"
+            android:text="Cancel">
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/teal_700"
+            android:text="Basic information"
+            android:textAlignment="center"
+            android:textSize="28dp">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
